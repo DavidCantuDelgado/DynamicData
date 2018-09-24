@@ -12,6 +12,7 @@
 		6386428E2158666C003164E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6386428C2158666C003164E6 /* Main.storyboard */; };
 		638642902158666D003164E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6386428F2158666D003164E6 /* Assets.xcassets */; };
 		638642932158666D003164E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638642912158666D003164E6 /* LaunchScreen.storyboard */; };
+		6386429B21587B7E003164E6 /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386429A21587B7E003164E6 /* DynamicTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6386428F2158666D003164E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		638642922158666D003164E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		638642942158666D003164E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6386429A21587B7E003164E6 /* DynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				638642882158666C003164E6 /* AppDelegate.swift */,
 				6386428A2158666C003164E6 /* ViewController.swift */,
 				6386428C2158666C003164E6 /* Main.storyboard */,
+				6386429A21587B7E003164E6 /* DynamicTableViewController.swift */,
 				6386428F2158666D003164E6 /* Assets.xcassets */,
 				638642912158666D003164E6 /* LaunchScreen.storyboard */,
 				638642942158666D003164E6 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6386428B2158666C003164E6 /* ViewController.swift in Sources */,
+				6386429B21587B7E003164E6 /* DynamicTableViewController.swift in Sources */,
 				638642892158666C003164E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
